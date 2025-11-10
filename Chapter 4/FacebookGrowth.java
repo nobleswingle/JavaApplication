@@ -1,9 +1,9 @@
 public class FacebookGrowth{
     public static void main(String[] args){
         double currentUsers = 1_000_000_000; // 1 billion
-        double target1 = 1_500_000_000; // 1.5 billion
-        double target2 = 2_000_000_000; // 2 billion
-        double growthRate = 0.04; // 4% monthly
+        double target1 = 1_500_000_000;     // 1.5 billion
+        double target2 = 2_000_000_000;    // 2 billion
+        double growthRate = 0.04;         // 4% monthly
         
         int monthsTo1_5B = calculateMonths(currentUsers, target1, growthRate);
         int monthsTo2B = calculateMonths(currentUsers, target2, growthRate);
