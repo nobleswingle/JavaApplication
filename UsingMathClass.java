@@ -1,0 +1,30 @@
+//java.lang package is automatically imported
+import java.util.Scanner;
+
+public class UsingMathClass{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter any negative number of your choice: ");
+		int num1 = input.nextInt();
+		
+		System.out.print("Enter any negative number of your choice: ");
+		int num2 = input.nextInt();
+		
+		
+		System.out.print("Enter any number to find the squareroot: ");
+		int squareRootNum = input.nextInt();
+		
+		
+		int castedSquarerootnum = (int) Math.sqrt(squareRootNum);
+		
+		
+		//output
+		System.out.printf("The absolute value of the number is %d%n", Math.abs(num1),Math.abs(num2));
+		System.out.printf("The Max number is %d%n", Math.max(num1,num2));
+		System.out.printf("The Max number is %d%n", Math.min(num1,num2));
+		System.out.printf("The squareroot is %f%n", Math.sqrt(squareRootNum));
+		System.out.printf("The squareroot is %d%n", Math.sqrt(castedSquarerootnum));
+	}
+}
+	
