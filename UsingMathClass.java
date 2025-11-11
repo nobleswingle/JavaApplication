@@ -24,7 +24,7 @@ public class UsingMathClass{
 		System.out.printf("The Max number is %d%n", Math.max(num1,num2));
 		System.out.printf("The Max number is %d%n", Math.min(num1,num2));
 		System.out.printf("The squareroot is %f%n", Math.sqrt(squareRootNum));
-		System.out.printf("The squareroot is %d%n", Math.sqrt(castedSquarerootnum));
+		System.out.printf("The squareroot is %d%n", Math.pow(num1,2)*Math.pow(num2,1));
 	}
 }
 	
