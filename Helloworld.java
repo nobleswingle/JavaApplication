@@ -10,7 +10,7 @@ public class Helloworld{
 		System.out.println("hello world, this is my first java program");
 		System.out.println("Learning Jaav is fun");
 		System.out.printf("I bought %d loaves of bread",num);
-		system.out.print("do you enjoy using '/java/'")
+		System.out.print("do you enjoy using '/java/'");
 	}
 	
 }
